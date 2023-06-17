@@ -1,16 +1,16 @@
+#include <stdio.h>
+#include <string.h>
 #include <unistd.h>
 
 /**
- * main - Entry point of the program that prints a message to standard error.
- *
- * Description: Print "and that piece of art is useful" - Dora Korpar, 2015-10-19"
- * followed by a new line to standard error, without using printf or puts.
- *
- * Return: The function returns 1.
+ * main - main block
+ * Return: 1
  */
 int main(void)
 {
     const char *message = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
-    write(STDERR_FILENO, message, sizeof(message));
-    return 1;
+    int s = strlen(message);
+
+    write(2, message, s);
+    return (1);
 }

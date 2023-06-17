@@ -1,0 +1,1 @@
+CFILE="0-main.c"; gcc -c $CFILE -o "${CFILE%.c}.o"

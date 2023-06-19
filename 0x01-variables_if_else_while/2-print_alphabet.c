@@ -9,14 +9,14 @@
  */
 int main(void)
 {
-    int i;
+	int i;
 
-    for (i = 0; i < 26; ++i)
-    {
-        putchar('a' + i);
-    }
-    
-    putchar('\n');
+	for (i = 0; i < 26; ++i)
+	{
+		putchar('a' + i);
+	}
 
-    return (0);
+	putchar('\n');
+
+	return (0);
 }

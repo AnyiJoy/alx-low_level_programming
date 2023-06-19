@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  * main - Entry point of the program.
  *
@@ -10,10 +11,11 @@
 int main(void)
 {
 	int i;
+	char c;
 
 	for (i = 0; i < 16; ++i)
 	{
-		char c = i < 10 ? '0' + i : 'a' + (i - 10);
+		c = i < 10 ? '0' + i : 'a' + (i - 10);
 		putchar(c);
 	}
 

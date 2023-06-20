@@ -1,4 +1,5 @@
 #include "main.h"
+#include <unistd.h>  // Add this line to include unistd header
 
 /**
  * main - Entry point of the program.

@@ -1,5 +1,5 @@
 #include "main.h"
-#include <unistd.h>  // Add this line to include unistd header
+#include <unistd.h>  /* Add this line to include unistd header */
 
 /**
  * main - Entry point of the program.
@@ -10,17 +10,17 @@
  */
 int main(void)
 {
-	char str[] = "_putchar";
-	int i;
+    char str[] = "_putchar";
+    int i;
 
-	for (i = 0; str[i] != '\0'; ++i)
-	{
-		_putchar(str[i]);
-	}
+    for (i = 0; str[i] != '\0'; ++i)
+    {
+        _putchar(str[i]);
+    }
 
-	_putchar('\n');
+    _putchar('\n');
 
-	return (0);
+    return (0);
 }
 
 /**

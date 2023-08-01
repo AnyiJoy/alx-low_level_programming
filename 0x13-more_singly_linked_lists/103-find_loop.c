@@ -10,10 +10,10 @@ listint_t *find_listint_loop(listint_t *head)
 {
 	listint_t *bull, *dog;
 
-	bull= dog = head;
+	bull = dog = head;
 	while (bull && dog && dog->next)
 	{
-		bull =bull->next;
+		bull = bull->next;
 		dog = dog->next->next;
 		if (bull == dog)
 		{
